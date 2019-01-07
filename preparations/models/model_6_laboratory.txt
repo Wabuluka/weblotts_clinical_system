@@ -1,0 +1,39 @@
+a doctor issues a labratory request form, that is seen by the laboratory attendant
+
+--------------------------------
+    lab_form
+    Doctors No. ____________________
+    Name ___________________________
+
+    Patient No. ____________________
+    Name. ___________________________
+
+    tests
+    --------------
+    1. --------
+    2. --------
+    3. --------
+after the requested tests are successful, the doctor can view them and give feedback to the Patient
+
+------------------------------
+    laboratory results
+---------------------------
+    Patient No.
+    Name
+
+    Laboratory. ____________________
+
+
+    tests
+    -------------------
+    1. ----------------
+        result:
+        ----------------
+    2. ----------------
+        result:
+        ----------------
+    3. -----------------
+        result:
+        ----------------
+
+    requested by. (doctors name and number)

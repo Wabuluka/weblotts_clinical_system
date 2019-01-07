@@ -1,0 +1,9 @@
+the clinic has one absolute administrator with rights to view any activity going on in the organisation
+this administrator can add or delete workers in the system.
+he can edit a record created anywhere on the system.
+he can view all the amount made by the clinic or the amount the stock holds
+this administrator is made
+
+
+registering a workers
+

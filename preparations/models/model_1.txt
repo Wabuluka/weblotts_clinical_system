@@ -1,0 +1,56 @@
+			
+			
+			-------------------------------------
+			|	weblott clinical system models	|
+			-------------------------------------
+
+--------------------
+|	patient_reg
+--------------------
+		patient_number*
+		firstname
+		lastname
+		age
+		sex
+		date_of_registation
+		time_of_registration
+
+---------------------	
+|	doctors_patient_form	|
+--------------------
+		form_number*
+		patient_number**
+		patient_description
+
+-------------------------
+|	laboratory_tests	|
+-------------------------
+		test_number*
+		patient_number**
+		doctors_number**
+		test_description
+	
+-------------------------
+|	consultation
+-------------------------
+		consultation_number*
+		patient_number**
+		amount
+	
+-------------------------
+|	laboratory_tests_fee
+-------------------------
+		laboratory_test_fee*
+		patient_number**
+		doctors_number**
+		amount
+	
+-------------------------
+|	residence
+-------------------------
+		residence_number*
+		patient_number**
+		village
+		country
+		
+--------------------------

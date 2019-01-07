@@ -1,0 +1,32 @@
+After regitration, the patient heads to the doctors office.
+The doctor inputs the registration number into the system and gets details
+
+-------------------------
+    patient_form
+-------------------------
+        patient_form_number*
+        registration_number**
+        description
+
+after the description, the doctor decides the way forward.
+this can be going to the pharmcy, laboratory, discharge
+if going to the pharmcy
+
+-------------------------
+    pharmcy_form
+-------------------------
+        pharmcy_form_number*
+        registration_number**
+        doctors_number**
+        med_description
+
+this is attached to the pharmcy database of the available medication which automatically attaches the med_discription with its price tag.
+here the doctor can input a coupon to redeem discounts for the patient if any.
+
+--------------------------
+    lab_form
+--------------------------
+        lab_form_number*
+        registration_number**
+        doctors_number**
+        test_description

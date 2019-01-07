@@ -1,0 +1,24 @@
+			-------------------------------------
+			|	patient registration
+			-------------------------------------
+To register a patient, a patient number is issued upon arrival at the desk, details are collected from the patient as required below.
+
+------------
+    patient_model
+-------------
+        patient_number*
+        firstname
+        lastname
+        age
+        sex
+
+
+after registration, the details are loaded into the registration list where references can be drawn.
+-------------------------
+    registration_list_model
+-------------------------
+        registration_number*
+        patient_number**
+        receiprtionist_number**
+        date_of_registration
+        time_of_registration

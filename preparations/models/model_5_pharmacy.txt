@@ -1,0 +1,72 @@
+in the pharmcy, the medicine is stored according to the system requirements.
+all the medicine is registered such that the system tracks the availability of the medicine
+
+everytime a medicine is bought, the system updates itself of the availability
+everytime a medicine is added to the system, there is an update to the database about availability
+
+            registering a medicine 
+    --------------------------
+        medicine caterogies
+    --------------------------
+            medicine_number
+                tablets
+                capsules
+                tubes
+                sprays
+                syrups
+
+every medicine has its own unit cost
+    ----------------------------
+        medicine_cost
+    ----------------------------
+            medicine_cost_number*
+            medicine_number**
+            unit_cost
+
+according to the caterogies of medicines available
+    -----------------------
+        tablets
+    -----------------------
+            tablet_number*
+            medicine_number**
+            medicine_cost_number**
+            tablet_name
+            tablet_description
+
+    --------------------------
+        capsules
+    --------------------------
+            capsule_number*
+            medicine_number**
+            medicine_cost_number**
+            capsule_name
+            capsule_description
+    
+    ----------------------------
+        oitment(tube)
+    ----------------------------
+            oitment_number*
+            medicine_number**
+            medicine_cost_number**
+            oitment_name
+            oitment_description
+
+    ------------------------------
+        sprays
+    ---------------------------------
+            spray_number*
+            medicine_number**
+            medicine_cost_number**
+            spray_name
+            spray_description
+
+    ------------------------------
+        syrups
+    ---------------------------------
+            syrup_number*
+            medicine_number**
+            medicine_cost_number**
+            syrup_name
+            syrup_description
+
+all the medicines stored in the database have their total sums automatically tracked as they come in and out

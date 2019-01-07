@@ -1,0 +1,33 @@
+in order to use the system, a business owner should register his business
+
+    --------------------
+    clinic_registration
+    --------------------
+        clinicId*
+        clinicName
+
+    -------------------------
+    clinic_registration_date
+    -------------------------
+        dateId*
+        clinicId**
+        time_of_registration
+        date_of_registration
+
+    ----------------------------
+    clinic_registration_details
+    ----------------------------
+        clinicDetailsId*
+        gov_number
+        region_of_operation
+
+    ---------------------------
+    clinic_registra
+    ---------------------------
+        registraId
+        firstName
+        lastName
+        personalEmail
+        telephone
+
+after a clinic_registra session, the registra is required to comfirm his details before continuing with the registration process

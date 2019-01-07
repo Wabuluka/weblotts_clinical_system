@@ -1,0 +1,3 @@
+there are several phases in this project and the first of them is registering the users of the application, 
+these are the workers of the organisation.
+there are several departments of the organisation and each has its own workers with different privileges in the organisation

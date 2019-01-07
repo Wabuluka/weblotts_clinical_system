@@ -1,0 +1,37 @@
+			
+			
+			-------------------------------------
+			|	weblott clinical system models	|
+			-------------------------------------
+	
+					admin registration system
+			-----------------------------------------
+
+categories of workers
+. doctors
+. nurses
+. receptionists
+. laboratory_attendants
+. pharmacists
+
+departments of the clinic
+. pharmacy__
+. receiption__
+. laboratory__
+. doctors_office__
+
+pharmacy
+. pharmacy_cashier
+. medicine
+. pharmacist
+
+laboratory
+. laboratory_attendant
+. nurses
+
+receiption
+. receiptionist
+. cashier
+
+doctors_office
+. doctor
